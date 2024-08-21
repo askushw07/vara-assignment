@@ -3,15 +3,15 @@ import "./App.css";
 import CsvFileHandler from "./components/CsvFileHandler";
 import { MyStore } from "./ContextApi/Store";
 import CreateTable from "./components/CreateTable";
-// import ShowSelected from "./components/ShowSelected";
+
 
 function App() {
   const { error, data } = useContext(MyStore);
   return (
     <>
       <CsvFileHandler />
+      {error && <p>{error}</p>}
       {data && <CreateTable data={data} />}
-      {/* <ShowSelected/> */}
     </>
   );
 }
