@@ -31,23 +31,23 @@ Bash
 git clone https://github.com/askushw07/vara-assignment.git
 Use code with caution.
 
-Navigate to the project directory:
+# Navigate to the project directory:
 
 Bash
-cd vara-assignment
-Use code with caution.
+`cd vara-assign`
 
-Install dependencies:
 
-Bash
-npm install
-Use code with caution.
-
-Run the development server:
+# Install dependencies:
 
 Bash
-npm start
-Use code with caution.
+`npm install`
+
+
+# Run the development server:
+
+Bash`
+npm start`
+
 
 Live Demo
 
