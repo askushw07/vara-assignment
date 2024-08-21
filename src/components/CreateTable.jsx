@@ -59,7 +59,7 @@ const CreateTable = ({ data }) => {
           </thead>
           <tbody>
             {parsingData?.map((e) => (
-              <RowData body={Object.values(e)} key={e["Car Name"]} />
+              <RowData body={Object.values(e)} key={Object.values(e)[0]} />
             ))}
           </tbody>
         </table>

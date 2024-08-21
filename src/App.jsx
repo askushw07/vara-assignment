@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <CsvFileHandler />
-      {error && <p>{error}</p>}
+      {error && <p className="text-red-500 top-10 left-10">{error}</p>}
       {data && <CreateTable data={data} />}
     </>
   );
